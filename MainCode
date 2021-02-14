@@ -223,3 +223,39 @@ Hats.rightleg.Handle.Attachment.Rotation = Vector3.new(0,90,0)--RightLeg
 Hats.leftleg.Handle.Attachment.Rotation = Vector3.new(0,90,0)--LeftLeg
 end
 end)
+
+game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(KeyPressed)
+ if KeyPressed == "e" then
+Character:WaitForChild("Torso").Attachment.Position = Vector3.new(1,4.5,0)--LeftLeg
+Character:WaitForChild("Torso").Attachment1.Position = Vector3.new(1,6,0)--torso1
+Character:WaitForChild("Torso").Attachment2.Position = Vector3.new(1,3,0)--torso2
+Character:WaitForChild("Torso").Attachment3.Position = Vector3.new(0.5,4.5,0)--RightArm
+Character:WaitForChild("Torso").Attachment4.Position = Vector3.new(0,2.5,0)--LeftArm
+Character:WaitForChild("Torso").Attachment5.Position = Vector3.new(0,6.5,0)--RightLeg
+
+Hats.torso1.Handle.Attachment.Rotation = Vector3.new(90,0,0)--torso1
+Hats.torso2.Handle.Attachment.Rotation = Vector3.new(90,0,0)--torso2
+Hats.rightarm.Handle.Attachment.Rotation = Vector3.new(0,90,0)--RightArm
+Hats.leftarm.Handle.Attachment.Rotation = Vector3.new(0,90,0)--LeftArm
+Hats.rightleg.Handle.Attachment.Rotation = Vector3.new(0,90,0)--RightLeg
+Hats.leftleg.Handle.Attachment.Rotation = Vector3.new(90,0,0)--LeftLeg
+end
+end)
+
+game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(KeyPressed)
+ if KeyPressed == "f" then
+Character:WaitForChild("Torso").Attachment.Position = Vector3.new(1,4.5,0)--LeftLeg
+Character:WaitForChild("Torso").Attachment1.Position = Vector3.new(1,6,0)--torso1
+Character:WaitForChild("Torso").Attachment2.Position = Vector3.new(1,3,0)--torso2
+Character:WaitForChild("Torso").Attachment3.Position = Vector3.new(0.5,4.5,0)--RightArm
+Character:WaitForChild("Torso").Attachment4.Position = Vector3.new(0.5,4.5,0)--LeftArm
+Character:WaitForChild("Torso").Attachment5.Position = Vector3.new(0,6.5,0)--RightLeg
+
+Hats.torso1.Handle.Attachment.Rotation = Vector3.new(90,0,0)--torso1
+Hats.torso2.Handle.Attachment.Rotation = Vector3.new(90,0,0)--torso2
+Hats.rightarm.Handle.Attachment.Rotation = Vector3.new(0,90,0)--RightArm
+Hats.leftarm.Handle.Attachment.Rotation = Vector3.new(0,90,0)--LeftArm
+Hats.rightleg.Handle.Attachment.Rotation = Vector3.new(0,90,0)--RightLeg
+Hats.leftleg.Handle.Attachment.Rotation = Vector3.new(90,0,0)--LeftLeg
+end
+end)
