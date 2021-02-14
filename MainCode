@@ -32,7 +32,7 @@ end
  
     game.Players.LocalPlayer.Character:BreakJoints()
  
-    wait(2)
+    wait(6)
  
 local unanchoredparts = {}
 local movers = {}
